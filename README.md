@@ -4,17 +4,17 @@
 
 ---
 
-### Rust — Infrastructure & Production Code
-> Low-level tools built for correctness, speed, and agent-first design.
+### Infrastructure & Production Code
+> Low-level tools built for correctness, speed, and parallelization, with interfaces for humans and agents. *Written in Rust, TypeScript, and Python.*
 
 | [bplate](https://github.com/lufs-audio/bplate) | [lrex](https://github.com/lufs-audio/lrex) | [lsbx](https://github.com/lufs-audio/lsbx) | [snuze](https://github.com/lufs-audio/snuze) |
 |---|---|---|---|
-| [apho](https://github.com/lufs-audio/apho) | [tscribe](https://github.com/danialrami/tscribe-class-carnyx) | [workchain](https://github.com/lufs-audio/workchain) | [lufs-sandbox-server](https://github.com/danialrami/lufs-sandbox-server) |
+| [apho](https://github.com/lufs-audio/apho) | [tscribe](https://github.com/danialrami/tscribe-class-carnyx) | [workchain](https://github.com/lufs-audio/workchain) | [celery-queue](https://github.com/danialrami/celery-queue-test) |
 
 ---
 
 ### Music Composition & Sound Design
-> Algorithmic composition, sampling registries, and tools for compositional processes.
+> Algorithmic composition, sampling registries, and tools for compositional processes. *Written in Python and SuperCollider.*
 
 | [phase-music](https://github.com/danialrami/phase-music) | [network-etude](https://github.com/danialrami/network-etude) | [ace_pipeline](https://github.com/danialrami/ace_pipeline) | [lufs-sfz](https://github.com/lufs-audio/lufs-sfz) |
 |---|---|---|---|
@@ -23,34 +23,34 @@
 ---
 
 ### Technical Audio
-> Audio capture, transcription, processing pipelines, and analysis tools.
+> Audio capture, transcription, processing pipelines, and analysis tools. *Written in Python, TypeScript, Lua, and C.*
 
-| [lrex](https://github.com/lufs-audio/lrex) | [tscribe](https://github.com/danialrami/tscribe-class-carnyx) | [lufs-recorder-pwa](https://github.com/lufs-audio/lufs-recorder-pwa) | [web-sampler-pwa](https://github.com/lufs-audio/web-sampler-pwa) |
+| [lufs-recorder-pwa](https://github.com/lufs-audio/lufs-recorder-pwa) | [web-sampler-pwa](https://github.com/lufs-audio/web-sampler-pwa) | [audioqr-pwa](https://github.com/lufs-audio/audioqr-pwa) | [portfolio-reel](https://github.com/danialrami/portfolio-reel) |
 |---|---|---|---|
-| [audioqr-pwa](https://github.com/lufs-audio/audioqr-pwa) | [portfolio-reel](https://github.com/danialrami/portfolio-reel) | [echo-bridge](https://github.com/danialrami/echo-bridge) | [voice-treatment-utility](https://github.com/danialrami/voice-treatment-utility) |
+| [echo-bridge](https://github.com/danialrami/echo-bridge) | [voice-treatment-utility](https://github.com/danialrami/voice-treatment-utility) | [reaper-scripts](https://github.com/danialrami/reaper-scripts) | [canvas-generator_spotify](https://github.com/danialrami/canvas-generator_spotify) |
 
 ---
 
 ### Frontend Websites
-> Portfolio, catalog, blog, and documentation sites.
+> Portfolio, catalog, blog, and documentation sites. *Written in HTML, JavaScript, TypeScript, and Astro.*
 
-| [lufs-audio](https://github.com/danialrami/lufs-audio) | [lufs-catalog-website](https://github.com/danialrami/lufs-catalog-website) | [danialrami-com](https://github.com/danialrami/danialrami-com) | [resume](https://github.com/lufs-audio/resume) |
+| [lufs-audio](https://github.com/danialrami/lufs-audio) | [lufs-catalog-website](https://github.com/danialrami/lufs-catalog-website) | [daniel-ramirez-io](https://github.com/danialrami/daniel-ramirez-io) | [resume](https://github.com/lufs-audio/resume) |
 |---|---|---|---|
 | [blog-daniel-ramirez-io](https://github.com/lufs-audio/blog-daniel-ramirez-io) | [deck-danialrami-com](https://github.com/lufs-audio/deck-danialrami-com) | [echo-bridge-manual](https://github.com/danialrami/echo-bridge-manual) | [albumdujour](https://github.com/lufs-audio/albumdujour) |
 
 ---
 
 ### Visual & Creative Coding
-> Interactive experiments, generative visuals, and visual process registries.
+> Interactive experiments, generative visuals, and visual process registries. *Written in HTML, JavaScript, and Python.*
 
 | [morphing-point-cloud](https://github.com/danialrami/morphing-point-cloud) | [time-danialrami](https://github.com/danialrami/time-danialrami) | [visual-process](https://github.com/lufs-audio/visual-process) | [visual-hashes](https://github.com/lufs-audio/visual-hashes) |
 |---|---|---|---|
-| [lufs-vectorscope-fog-demo](https://github.com/danialrami/lufs-vectorscope-fog-demo) | [canvas-generator_spotify](https://github.com/danialrami/canvas-generator_spotify) | [f-lufs](https://github.com/danialrami/f-lufs) | [process-images_catppuccin-mocha](https://github.com/danialrami/process-images_catppuccin-mocha) |
+| [lufs-vectorscope-fog-demo](https://github.com/danialrami/lufs-vectorscope-fog-demo) | [f-lufs](https://github.com/danialrami/f-lufs) | [process-images_catppuccin-mocha](https://github.com/danialrami/process-images_catppuccin-mocha) | [artyshield-lufs](https://github.com/danialrami/artyshield-lufs) |
 
 ---
 
 ### Miscellaneous
-> Agents, utilities, and everything else.
+> Agents, AI tooling, and everything else. *Written in Python, TypeScript, and HTML.*
 
 | [civic-agent](https://github.com/danialrami/civic-agent) | [say-chat](https://github.com/danialrami/say-chat) | [wordscatter](https://github.com/danialrami/wordscatter) | [plugin-catalog-lufs](https://github.com/danialrami/plugin-catalog-lufs) |
 |---|---|---|---|
