@@ -1,7 +1,9 @@
 # Daniel Ramirez
 
 **Sound Designer & Infrastructure Engineer — I build the audio and the systems it runs on.**
+
 [daniel-ramirez.io](https://daniel-ramirez.io) · [lufs.audio](https://lufs.audio) · [reel.daniel-ramirez.io](https://reel.danialrami.com) · [LinkedIn](https://linkedin.com/in/danialrami)
+
 ---
 
 ### Infrastructure & Production Code
