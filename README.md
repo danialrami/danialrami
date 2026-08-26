@@ -25,7 +25,7 @@
 ---
 
 ### Technical Audio
-> Audio capture, transcription, processing pipelines, and analysis tools. *Written in Python, TypeScript, Lua, and C.*
+> Audio capture, transcription, processing pipelines, and analysis tools. *Written in Python, TypeScript, Lua, and C++.*
 
 | [lufs-recorder-pwa](https://github.com/lufs-audio/lufs-recorder-pwa) | [web-sampler-pwa](https://github.com/lufs-audio/web-sampler-pwa) | [audioqr-pwa](https://github.com/lufs-audio/audioqr-pwa) | [portfolio-reel](https://github.com/danialrami/portfolio-reel) |
 |---|---|---|---|
@@ -34,7 +34,7 @@
 ---
 
 ### Frontend Websites
-> Portfolio, catalog, blog, and documentation sites. *Written in HTML, JavaScript, TypeScript, and Astro.*
+> Portfolio, catalog, blog, and documentation sites. *Written in HTML and JavaScript/TypeScript.*
 
 | [lufs-audio](https://github.com/danialrami/lufs-audio) | [lufs-catalog-website](https://github.com/danialrami/lufs-catalog-website) | [daniel-ramirez-io](https://github.com/danialrami/daniel-ramirez-io) | [resume](https://github.com/lufs-audio/resume) |
 |---|---|---|---|
