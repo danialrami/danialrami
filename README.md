@@ -1,77 +1,80 @@
-# Daniel Ramirez.
+# Daniel Ramirez
 
 **Sound Designer & Infrastructure Engineer — I build the audio and the systems it runs on.**
 
 ---
 
-I've spent a decade designing interactive audio for games, UX, and media — then started building the infrastructure to run it myself. Today that means a 100+ container homelab across ~10 machines on a Tailscale zero-trust mesh, local AI audio inference servers, and a growing suite of agent-first tools that sit at the exact boundary of audio engineering and platform work. Earning CompTIA A+, Network+, and Security+ in 2026.
+### Infrastructure & Production Code
+> Low-level tools built for correctness, speed, and parallelization, with interfaces for humans and agents. *Written in Rust, TypeScript, and Python.*
+
+| [bplate](https://github.com/lufs-audio/bplate) | [lrex](https://github.com/lufs-audio/lrex) | [lsbx](https://github.com/lufs-audio/lsbx) | [snuze](https://github.com/lufs-audio/snuze) |
+|---|---|---|---|
+| [apho](https://github.com/lufs-audio/apho) | [tscribe](https://github.com/danialrami/tscribe-class-carnyx) | [workchain](https://github.com/lufs-audio/workchain) | [celery-queue](https://github.com/danialrami/celery-queue-test) |
 
 ---
 
-## Pillar I — Audio / DSP / Music Tooling
+### Music Composition & Sound Design
+> Algorithmic composition, sampling registries, and tools for compositional processes. *Written in Python and SuperCollider.*
 
-- **[echo-bridge](https://github.com/danialrami/echo-bridge)** — Partitioned-convolution reverb in C++ on a Daisy Seed (ARM); early-reflection FFT at 64 pts, late-tail at 1024 pts, USB IR loading, deployed in a guitar pedal
-- **[lufs-workchain](https://github.com/danialrami/lufs-workchain)** — YAML-driven modular audio pipeline with an agent-first npm CLI: EBU R128 normalization, AI-training protection, spectrogram artwork, structured JSON output and NDJSON progress for agent consumption
-- **[midi-audio-recorder](https://github.com/danialrami/midi-audio-recorder)** — Max/MSP patch that simultaneously records dual stereo pairs + MIDI from a Nord Stage 3 into timestamped folders; real-time spectroscope and level monitoring
-- **[voice-treatment-utility](https://github.com/danialrami/voice-treatment-utility)** — Python post-processing chain for AI TTS output: RNNoise → EQ → SOXR 48 kHz upsample → Matchering reference master → 24-bit WAV + 320 kbps MP3
-- **[canvas-generator_spotify](https://github.com/danialrami/canvas-generator_spotify)** — Converts album art to BPM-synced Spotify Canvas MP4 via glitch effects and FFmpeg; PIL + NumPy + configurable intensity
-
----
-
-## Pillar II — Infrastructure / Homelab / Networking
-
-- **[homelab](https://github.com/danialrami/homelab)** — 100+ containers across ~10 hosts, Docker Compose stacks per machine, orchestrated via a custom OpenCode automation agent; services span Prometheus + Grafana observability, Forgejo, n8n, Matrix, Immich, Plex, and more
-- **[tailscale-acls](https://github.com/danialrami/tailscale-acls)** — ACL policy as code (HuJSON) for a multi-site Tailscale mesh; PR-gated CI runs `tailscale acl test` before auto-deploying policy to the live tailnet — GitOps applied to zero-trust networking
-- **[backup-scripts](https://github.com/danialrami/backup-scripts)** — Cross-platform rsync backup suite with Docker-aware exclusions, configurable retention windows, and Markdown system-report generation
-- **[system-report](https://github.com/danialrami/system-report)** — Shell script producing Markdown-formatted host health snapshots: disk, packages, running services, Docker images
+| [phase-music](https://github.com/danialrami/phase-music) | [network-etude](https://github.com/danialrami/network-etude) | [ace_pipeline](https://github.com/danialrami/ace_pipeline) | [lufs-sfz](https://github.com/lufs-audio/lufs-sfz) |
+|---|---|---|---|
+| [vocal-warmup-generator](https://github.com/danialrami/vocal-warmup-generator) | [sound-archive](https://github.com/danialrami/sound-archive) | [composition-process](https://github.com/lufs-audio/composition-process) | [continuo](https://github.com/danialrami/continuo) |
 
 ---
 
-## Pillar III — AI Agents / Automation
+### Technical Audio
+> Audio capture, transcription, processing pipelines, and analysis tools. *Written in Python, TypeScript, Lua, and C.*
 
-- **[ffmpeg-mcp-server](https://github.com/danialrami/ffmpeg-mcp-server)** — MCP server that exposes FFmpeg batch-processing to AI assistants; Docker-sandboxed execution, whitelist flag validation, shell-injection protection, network-disabled containers
-- **[lufs-agents](https://github.com/danialrami/lufs-agents)** — Nix-flakes multi-agent coordination framework for professional audio workflows; 7 specialized agents (engineering, creative, ops, QA, etc.) + an audio MCP server + EBU R128 analyzer
-- **[civic-agent](https://github.com/danialrami/civic-agent)** — Local civic voting assistant built on OpenCode: permission-bounded Python tool calls the Google Civic API, checks data freshness, and answers questions via SearXNG; read-only by design
-- **[opencode-agent-definitions](https://github.com/danialrami/opencode-agent-definitions)** — 8-doc internal reference covering OpenCode agent architecture, configuration patterns, permission design, and prompt engineering; the knowledge base behind the automation layer
+| [lufs-recorder-pwa](https://github.com/lufs-audio/lufs-recorder-pwa) | [web-sampler-pwa](https://github.com/lufs-audio/web-sampler-pwa) | [audioqr-pwa](https://github.com/lufs-audio/audioqr-pwa) | [portfolio-reel](https://github.com/danialrami/portfolio-reel) |
+|---|---|---|---|
+| [echo-bridge](https://github.com/danialrami/echo-bridge) | [voice-treatment-utility](https://github.com/danialrami/voice-treatment-utility) | [reaper-scripts](https://github.com/danialrami/reaper-scripts) | [plugin-catalog-lufs](https://github.com/danialrami/plugin-catalog-lufs) |
 
 ---
 
-## Stack
+### Frontend Websites
+> Portfolio, catalog, blog, and documentation sites. *Written in HTML, JavaScript, TypeScript, and Astro.*
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+| [lufs-audio](https://github.com/danialrami/lufs-audio) | [lufs-catalog-website](https://github.com/danialrami/lufs-catalog-website) | [daniel-ramirez-io](https://github.com/danialrami/daniel-ramirez-io) | [resume](https://github.com/lufs-audio/resume) |
+|---|---|---|---|
+| [blog-daniel-ramirez-io](https://github.com/lufs-audio/blog-daniel-ramirez-io) | [deck-danialrami-com](https://github.com/lufs-audio/deck-danialrami-com) | [echo-bridge-manual](https://github.com/danialrami/echo-bridge-manual) | [albumdujour](https://github.com/lufs-audio/albumdujour) |
+
+---
+
+### Visual & Creative Coding
+> Interactive experiments, generative visuals, and visual process registries. *Written in HTML, JavaScript, and Python.*
+
+| [morphing-point-cloud](https://github.com/danialrami/morphing-point-cloud) | [time-danialrami](https://github.com/danialrami/time-danialrami) | [visual-process](https://github.com/lufs-audio/visual-process) | [visual-hashes](https://github.com/lufs-audio/visual-hashes) |
+|---|---|---|---|
+| [lufs-vectorscope-fog-demo](https://github.com/danialrami/lufs-vectorscope-fog-demo) | [f-lufs](https://github.com/danialrami/f-lufs) | [process-images_catppuccin-mocha](https://github.com/danialrami/process-images_catppuccin-mocha) | [interactive-resume](https://github.com/danialrami/interactive-resume) |
+
+---
+
+### Miscellaneous
+> Agents, AI tooling, and everything else. *Written in Python, TypeScript, and HTML.*
+
+| [civic-agent](https://github.com/danialrami/civic-agent) | [say-chat](https://github.com/danialrami/say-chat) | [wordscatter](https://github.com/danialrami/wordscatter) | [canvas-generator_spotify](https://github.com/danialrami/canvas-generator_spotify) |
+|---|---|---|---|
+| [stable-audio-open-carnyx](https://github.com/danialrami/stable-audio-open-carnyx) | [comfy-ui_init_audio_4_api](https://github.com/danialrami/comfy-ui_init_audio_4_api) | [synth-agent-adapter](https://github.com/lufs-audio/synth-agent-adapter) | [qwen3-tts](https://github.com/danialrami/qwen3-tts) |
+
+---
+
+### Stack
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Wwise](https://img.shields.io/badge/Wwise-00A0DC?style=flat-square&logo=audiokinetic&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine_5-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Max/MSP](https://img.shields.io/badge/Max%2FMSP-525252?style=flat-square&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+![SuperCollider](https://img.shields.io/badge/SuperCollider-FFFFFF?style=flat-square&logoColor=white)
 
-**Audio:** Wwise (cert. 101/201) · Unreal Engine 5 (cert.) · Max/MSP (cert.) · Reaper · SuperCollider · IRCAM training  
-**Infra:** Docker Compose · Tailscale · Prometheus/Grafana · n8n · Forgejo · Nginx · PostgreSQL/MariaDB/Redis  
-**AI/Agents:** MCP · OpenCode agents · FastAPI · LiteLLM · Whisper · Stable Audio · Qwen3-TTS  
-**Languages:** Python · Bash/Shell · C++ · Lua · TypeScript · HuJSON  
-
----
-
-## Currently
-
-Earning **CompTIA A+ / Network+ / Security+** — all three in progress, expected 2026.
+**Audio:** Wwise · Max/MSP · Reaper · SuperCollider · IRCAM · Unreal Engine 5 · Pure Data
+**Infra:** Docker Compose · Tailscale · Prometheus/Grafana · n8n · Forgejo · QEMU/KVM
+**AI/Agents:** MCP · FastAPI · LiteLLM · Whisper · Qwen3-TTS · OpenCode/Pi
+**Languages:** Rust · Python · TypeScript · Bash/Shell · Lua · C++
 
 ---
 
-## Links
+[daniel-ramirez.io](https://daniel-ramirez.io) · [lufs.audio](https://lufs.audio) · [Audio Reel](https://reel.danialrami.com) · [LinkedIn](https://linkedin.com/in/danialrami)
 
-[daniel-ramirez.io](https://daniel-ramirez.io) &nbsp;·&nbsp;
-[lufs.audio](https://lufs.audio) &nbsp;·&nbsp;
-[Audio Reel](https://reel.danialrami.com) &nbsp;·&nbsp;
-[LinkedIn](https://linkedin.com/in/danialrami)
-
----
-
-*San Antonio, TX · Remote-first · Clearance-eligible*
