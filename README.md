@@ -27,7 +27,7 @@
 
 | [lufs-recorder-pwa](https://github.com/lufs-audio/lufs-recorder-pwa) | [web-sampler-pwa](https://github.com/lufs-audio/web-sampler-pwa) | [audioqr-pwa](https://github.com/lufs-audio/audioqr-pwa) | [portfolio-reel](https://github.com/danialrami/portfolio-reel) |
 |---|---|---|---|
-| [echo-bridge](https://github.com/danialrami/echo-bridge) | [voice-treatment-utility](https://github.com/danialrami/voice-treatment-utility) | [reaper-scripts](https://github.com/danialrami/reaper-scripts) | [canvas-generator_spotify](https://github.com/danialrami/canvas-generator_spotify) |
+| [echo-bridge](https://github.com/danialrami/echo-bridge) | [voice-treatment-utility](https://github.com/danialrami/voice-treatment-utility) | [reaper-scripts](https://github.com/danialrami/reaper-scripts) | [plugin-catalog-lufs](https://github.com/danialrami/plugin-catalog-lufs) |
 
 ---
 
@@ -45,14 +45,14 @@
 
 | [morphing-point-cloud](https://github.com/danialrami/morphing-point-cloud) | [time-danialrami](https://github.com/danialrami/time-danialrami) | [visual-process](https://github.com/lufs-audio/visual-process) | [visual-hashes](https://github.com/lufs-audio/visual-hashes) |
 |---|---|---|---|
-| [lufs-vectorscope-fog-demo](https://github.com/danialrami/lufs-vectorscope-fog-demo) | [f-lufs](https://github.com/danialrami/f-lufs) | [process-images_catppuccin-mocha](https://github.com/danialrami/process-images_catppuccin-mocha) | [artyshield-lufs](https://github.com/danialrami/artyshield-lufs) |
+| [lufs-vectorscope-fog-demo](https://github.com/danialrami/lufs-vectorscope-fog-demo) | [f-lufs](https://github.com/danialrami/f-lufs) | [process-images_catppuccin-mocha](https://github.com/danialrami/process-images_catppuccin-mocha) | [interactive-resume](https://github.com/danialrami/interactive-resume) |
 
 ---
 
 ### Miscellaneous
 > Agents, AI tooling, and everything else. *Written in Python, TypeScript, and HTML.*
 
-| [civic-agent](https://github.com/danialrami/civic-agent) | [say-chat](https://github.com/danialrami/say-chat) | [wordscatter](https://github.com/danialrami/wordscatter) | [plugin-catalog-lufs](https://github.com/danialrami/plugin-catalog-lufs) |
+| [civic-agent](https://github.com/danialrami/civic-agent) | [say-chat](https://github.com/danialrami/say-chat) | [wordscatter](https://github.com/danialrami/wordscatter) | [canvas-generator_spotify](https://github.com/danialrami/canvas-generator_spotify) |
 |---|---|---|---|
 | [stable-audio-open-carnyx](https://github.com/danialrami/stable-audio-open-carnyx) | [comfy-ui_init_audio_4_api](https://github.com/danialrami/comfy-ui_init_audio_4_api) | [synth-agent-adapter](https://github.com/lufs-audio/synth-agent-adapter) | [qwen3-tts](https://github.com/danialrami/qwen3-tts) |
 
@@ -69,13 +69,12 @@
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
 ![SuperCollider](https://img.shields.io/badge/SuperCollider-FFFFFF?style=flat-square&logoColor=white)
 
-**Audio:** Wwise · Max/MSP · Reaper · SuperCollider · IRCAM · Stable Audio Open · ACE-Step
+**Audio:** Wwise · Max/MSP · Reaper · SuperCollider · IRCAM · Unreal Engine 5 · Pure Data
 **Infra:** Docker Compose · Tailscale · Prometheus/Grafana · n8n · Forgejo · QEMU/KVM
-**AI/Agents:** MCP · FastAPI · LiteLLM · Whisper · Qwen3-TTS · OpenCode
-**Languages:** Rust · Python · TypeScript · Bash/Shell · Lua · C++ · Astro
+**AI/Agents:** MCP · FastAPI · LiteLLM · Whisper · Qwen3-TTS · OpenCode/Pi
+**Languages:** Rust · Python · TypeScript · Bash/Shell · Lua · C++
 
 ---
 
 [daniel-ramirez.io](https://daniel-ramirez.io) · [lufs.audio](https://lufs.audio) · [Audio Reel](https://reel.danialrami.com) · [LinkedIn](https://linkedin.com/in/danialrami)
 
-*San Antonio, TX · Remote-first*
